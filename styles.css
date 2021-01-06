@@ -28,18 +28,16 @@ li {
     list-style-type: none; 
 }
 
+a {
+    text-decoration: none;
+}
 /* Логотип */
 .logo{
-        text-decoration: none;
         font-family: 'Raleway', sans-serif;
+        font-weight: 700;
         font-size: 26px;
         line-height: 1.2;
-}
-
-.logo .first-part{
-    color: var(--accent-color);
-
-    
+        color: var(--accent-color);
 }
 
 .logo .sec-part-white{
@@ -53,9 +51,14 @@ li {
 }
 
 /* Шапка */
+.nav{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
 .nav .link{
     color: var(--title-text-color);
-    text-decoration: none;
 }
 
 .nav .link:hover, 
@@ -65,7 +68,6 @@ li {
 
 .nav .contacts{
     color: var(--primary-text-color);
-    text-decoration: none;
 }
 
 .nav .contacts:hover, 
@@ -75,7 +77,6 @@ li {
 /* помечается открытая страница */
 .nav .opend{
     color: var(--accent-color);
-    text-decoration: none;
 }
 .nav .opend:hover,
 .nav .opend:focus{
@@ -101,7 +102,6 @@ li {
     background-color: var(--accent-color);
     color: var(--secondary-text-color);
 
-    text-decoration: none;
 
     font-weight: 700;
     font-size: 16px;
@@ -168,7 +168,6 @@ li {
 }
 .footer .link{
     color: var(--footer-link-color);
-    text-decoration: none;
 }
 .footer .link:hover,
 .footer .link:focus{
@@ -204,18 +203,14 @@ li {
     background-color: var(--secondary-background-color);
     color: var(--title-text-color);
 }
-
-.portfolio .link{
-    text-decoration: none;
-}
-.portfolio .title{
+.search .title{
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
 }
-.portfolio .text{
+.search .text{
     color: var(--primary-text-color);
     font-weight: 400;
     font-size: 16px;
