@@ -183,11 +183,6 @@ a {
     background-color: var(--accent-color);
     color: var(--secondary-text-color);
 }
-.search .used:hover,
-.search .used:focus{
-    background-color: var(--secondary-background-color);
-    color: var(--title-text-color);
-}
 .search .title{
     color: var(--title-text-color);
     font-size: 18px;
